@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 // import myImage from '../Assets/harsh.jpg'
-// import myFile from './TestFileDownload.docx'
+import myFile from './TestFileDownload.docx'
 // import {FiDownload} from 'react-icons/md'
 
 import Typed from "typed.js";
@@ -71,7 +71,7 @@ export const Home = () => {
                     </div>
                     <div className="btns mt-8 my-5 flex justify-center ml-2">
                         <button  className=' px-4 py-2 bg-blue-600 text-white font-semibold text-[1rem] sm:text-lg rounded-md focus:ring-4 focus:ring-blue-300 mr-4 hover:bg-blue-700 '>
-                            <a href="https://docs.google.com/document/d/1rxwZ8gm2wwFDJWm9moPuyMcYVEuuEmjI/edit?usp=sharing&ouid=111508080879397329399&rtpof=true&sd=true" rel='noopener noreferrer' download='testFile'>
+                            <a href={myFile} download='testFile'>
                             <span className='mx-1'>Download CV</span>
                             <i className="fa-solid fa-download"></i>
                             </a>
