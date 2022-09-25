@@ -118,10 +118,10 @@ export const About = () => {
                 </p>
               <div className="my-4">
                 <div className="tab-titles flex md:justify-start justify-center">
-                  <p className="tab-links border-4 border-transparent rounded-md border-b-blue-600 active-link mx-7 md:mr-12 text-lg cursor-pointer text-red-500 font-bold  "
+                  <p className="w-1/3 flex justify-center tab-links border-4 border-transparent rounded-md border-b-blue-600 active-link  md:mr-12 text-lg cursor-pointer text-red-500 font-bold  "
                     onClick={handleSkills} id="skills-tab">Skills</p>
-                  <p className="tab-links mx-7 md:mr-12 text-lg cursor-pointer border-4 border-transparent rounded-md text-red-500 font-bold" onClick={handleEducation} id="education-tab">Education</p>
-                  <p className="tab-links mx-7 md:mr-12 text-lg cursor-pointer border-4 border-transparent rounded-md text-red-500 font-bold"
+                  <p className="w-1/3 flex justify-center tab-links  md:mr-12 text-lg cursor-pointer border-4 border-transparent rounded-md text-red-500 font-bold" onClick={handleEducation} id="education-tab">Education</p>
+                  <p className="w-1/3 flex justify-center tab-links  md:mr-12 text-lg cursor-pointer border-4 border-transparent rounded-md text-red-500 font-bold"
                     onClick={handleExperience} id="experience-tab">Experience</p>
                 </div>
                 <div className="tab-contents my-4 min-h-[252px]">
