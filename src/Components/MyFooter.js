@@ -12,13 +12,13 @@ export const MyFooter = () => {
           </div>
           <div className='w-[100%] md:w-[30%]'>
             <ul className="space-y-4 my-5">
-              <li>
+              <li className='cursor-pointer'>
                 <Link to={"about"} smooth duration={500} >About</Link>
               </li>
-              <li>
+              <li className='cursor-pointer'>
                 <Link to={"portfolio"} smooth duration={500} >Portfolio</Link>  
               </li>
-              <li>
+              <li className='cursor-pointer'>
                 <Link to={"contact"} smooth duration={500} >Contact</Link>
               </li>
             </ul>
