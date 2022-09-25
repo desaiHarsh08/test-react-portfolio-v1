@@ -67,11 +67,14 @@ export const Home = () => {
                             <span className='ml-4 text-blue-600' ref={el}></span>
                             
                         </h2>
-                        <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptates quis delectus labore architecto. Eius, sint delectus commodi doloribus repudiandae impedit.</p>
+                        <p className='text-center'>
+                            Currently, I love to work on web applications using technologies like React JS and Tailwind CSS. Check out my some of the <Link to={'portfolio'} smooth duration={500} className='text-blue-700 font-medium underline underline-offset-2 cursor-pointer ' >work</Link>.
+
+                            </p>
                     </div>
                     <div className="btns mt-8 my-5 flex justify-center ml-2">
                         <button  className=' px-4 py-2 bg-blue-600 text-white font-semibold text-[1rem] sm:text-lg rounded-md focus:ring-4 focus:ring-blue-300 mr-4 hover:bg-blue-700 '>
-                            <a href={myFile} download='testFile'>
+                            <a href={myFile} download>
                             <span className='mx-1'>Download CV</span>
                             <i className="fa-solid fa-download"></i>
                             </a>

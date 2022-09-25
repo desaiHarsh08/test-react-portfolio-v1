@@ -105,16 +105,24 @@ export const About = () => {
             </div>
             <div className="right w-[97%] mx-8 xsm:mx-4 md:mx-2 ">
               
-              <p className="text-justify text-base py-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
-                eaque veritatis, esse obcaecati dolor
-                ad autem officiis sint! Voluptas quasi alias nisi reprehenderit!</p>
+              <p className="text-justify text-base py-4">
+                I am currently pursuing <span className='font-bold'>B. E</span> from K.D.K College of Engineering in <span className='font-bold'>Information Technology</span> stream. My hometown is Nagpur. I have completed my schooling from Central India Public School, Nagpur and I did my 12th from Bhavan's B.P Vidhya Mandir, Nagpur in Computer Science branch.
+                <br /><br />
+                Coming to my hobbies, I like to playing cricket, watching T.V. and Internet surfing.
+                <br /><br />
+                I want to be a <span className='font-bold'>Full Stack Developer</span>
+                <br /><br />
+                My strength is hard worker as well as smart worker and a quick learner. I am always given my 100%.
+                <br /><br />
+                I am self-motivated, and disciplined soul. I am always been to up-skill myself by learning new things whenever I get a chance.
+                </p>
               <div className="my-4">
                 <div className="tab-titles flex md:justify-start justify-center">
-                  <p className="tab-links border-2 border-transparent rounded-sm border-b-blue-600 active-link mx-7 md:mr-12 text-lg cursor-pointer  "
+                  <p className="tab-links border-4 border-transparent rounded-md border-b-blue-600 active-link mx-7 md:mr-12 text-lg cursor-pointer text-red-500 font-bold  "
                     onClick={handleSkills} id="skills-tab">Skills</p>
-                  <p className="tab-links mx-7 md:mr-12 text-lg cursor-pointer border-2 border-transparent rounded-sm"
+                  <p className="tab-links mx-7 md:mr-12 text-lg cursor-pointer border-4 border-transparent rounded-md text-red-500 font-bold" onClick={handleEducation} id="education-tab">Education</p>
+                  <p className="tab-links mx-7 md:mr-12 text-lg cursor-pointer border-4 border-transparent rounded-md text-red-500 font-bold"
                     onClick={handleExperience} id="experience-tab">Experience</p>
-                  <p className="tab-links mx-7 md:mr-12 text-lg cursor-pointer border-2 border-transparent rounded-sm" onClick={handleEducation} id="education-tab">Education</p>
                 </div>
                 <div className="tab-contents my-4 min-h-[252px]">
                   <div className=" skills-content " id="skills">
@@ -156,11 +164,40 @@ export const About = () => {
                       </li>
                     </ul>
                   </div>
+                  <div className="hidden education-content" id="education">
+                    <table className='border-2 border-red-200 w-full'>
+                      <thead>
+                        <tr className='text-center border'>
+                          <th className='border-2 text-red-500 border-blue-600'>Sr.No</th>
+                          <th className='border-2 text-red-500 border-blue-600'>Qualification</th>
+                          <th className='border-2 text-red-500 border-blue-600'>Result</th>
+                          <th className='border-2 text-red-500 border-blue-600'>Year</th>
+                          <th className='border-2 text-red-500 border-blue-600'>Board</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className='text-center'>
+                          <td className='border-2 border-blue-300'>1.</td>
+                          <td className='border-2 border-blue-300'>10th</td>
+                          <td className='border-2 border-blue-300'>85.60%</td>
+                          <td className='border-2 border-blue-300'>2017</td>
+                          <td className='border-2 border-blue-300'>C.B.S.E</td>
+                        </tr>
+                        <tr className='text-center'>
+                          <td className='border-2 border-blue-300'>2.</td>
+                          <td className='border-2 border-blue-300'>12th</td>
+                          <td className='border-2 border-blue-300'>84.00%</td>
+                          <td className='border-2 border-blue-300'>2019</td>
+                          <td className='border-2 border-blue-300'>C.B.S.E</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+
+                    
+                  </div>
                   <div className="hidden experience-content" id="experience">
                     Experience
-                  </div>
-                  <div className="hidden education-content" id="education">
-                    Education
                   </div>
                 </div>
               </div>

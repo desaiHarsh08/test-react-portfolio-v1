@@ -14,11 +14,11 @@ export const NavBar = () => {
       // const body = document.getElementById('body');
       // console.log(body, arrowUp);
       if(window.scrollY >= 300){
-        arrowUp.classList.remove("invisible");
+        arrowUp.classList.remove("hidden");
         // console.log(window.scrollY);
         // console.log(window.scrollY);
       }else{
-        arrowUp.classList.add("invisible");
+        arrowUp.classList.add("hidden");
         // console.log(window.scrollY);
       }
     });
@@ -94,7 +94,7 @@ export const NavBar = () => {
         
       </div>
 
-      <div  id='arrow-up' className=' scroll-up absolute bottom-20 border-2 border-transparent bg-blue-600 text-white px-4 py-2 right-4 rounded text-lg duration-300 transition-all focus:ring-4 focus:ring-blue-400 '>
+      <div  id='arrow-up' className='hidden scroll-up absolute bottom-20 border-2 border-transparent bg-blue-600 text-white px-4 py-2 right-4 rounded text-lg duration-300 transition-all focus:ring-4 focus:ring-blue-400 '>
           <button>
             <Link to={"home"} smooth duration={500} >
             <i class="fa-solid fa-arrow-up-from-bracket"></i>

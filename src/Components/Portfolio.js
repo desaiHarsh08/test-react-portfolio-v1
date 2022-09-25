@@ -17,13 +17,13 @@ export const Portfolio = () => {
 
 
   return (
-    <div className='portfolio mt-24'>
+    <div className='portfolio mt-12'>
       
 
 
 
       {/* <!-- Portfolio --> */}
-      <div className="portfolio px-2" id="portfolio">
+      <div className=" px-2 pt-20" id="portfolio">
         <h2 className="text-3xl font-semibold my-6 text-center ">Portfolio</h2>
         <div className="portfolio-container container mx-auto py-10">
 
