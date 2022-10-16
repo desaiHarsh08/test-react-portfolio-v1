@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 @media (min-width: 768px){
     #about{
         min-height: 1220px;
@@ -11,4 +11,4 @@
     #about{
         min-height: 1550px;
     }
-}
+} */
