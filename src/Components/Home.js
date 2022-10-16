@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-// import myImage from '../Assets/harsh.jpg'
-import myFile from './TestFileDownload.docx'
+import myImage from '../Assets/myImage2s.png'
+// import myImage1 from '../Assets/harsh.jpg'
+import myFile from '../Assets/ResumeHarshDesai.docx'
 // import {FiDownload} from 'react-icons/md'
 
 import Typed from "typed.js";
@@ -44,7 +45,7 @@ export const Home = () => {
                         </a>
                     </div>
                     <div className='px-1 w-12 flex justify-center items-center h-12'>
-                        <a href="/" rel="noreferrer">
+                        <a href="https://www.instagram.com/harshdesai889/" rel="noreferrer" target={"_blank"}>
                             <i className="fa-brands fa-instagram cursor-pointer text-lg px-[6px]  text-red-500 hover:scale-150 border border-transparent hover:bg-red-500 hover:text-white hover:rounded-full transition-all"></i>
                         </a>
                     </div>
@@ -61,8 +62,8 @@ export const Home = () => {
                 </div>
                 <div className="intro flex flex-col justify-evenly w-[100%] md:w-[70%] md:h-[70%] ">
                     <div className='space-y-6'>
-                        <h2 className='text-2xl sm:text-2xl font-medium my-3 text-center ' >Hi, there 🙋‍♂️</h2>
-                        <h2 className='text-3xl sm:text-3xl font-medium my-3 text-center text-red-600 '>
+                        <h2 className='text-xl sm:text-2xl font-medium my-3 text-center ' >Hi, There 🙋‍♂️</h2>
+                        <h2 className='text-2xl sm:text-3xl font-medium my-3 text-center text-red-600 '>
                             I'm 
                             <span className='ml-4 text-blue-600' ref={el}></span>
                             
@@ -89,7 +90,7 @@ export const Home = () => {
                 </div>
             </div>
             <div className="right md:w-1/2 flex justify-center items-center ">
-                <img src="https://scontent.fnag6-1.fna.fbcdn.net/v/t39.30808-6/308399879_992442754912216_7758675848761638087_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vJZnroFEqjoAX8ZBAAe&_nc_ht=scontent.fnag6-1.fna&oh=00_AT_YpYH0Q9lhhaOD9oDhJv8M3eUMOmDkL9e0FEF9UfWPug&oe=63342F3A" className='w-[40%] sm:w-[60%] border-2 border-blue-500  rounded-full ' alt="myProfileImage" />
+                <img src={myImage} className='w-[40%] sm:w-[60%] border-2 border-blue-500  rounded-full ' alt="myProfileImage" />
             </div>
         </div>
 

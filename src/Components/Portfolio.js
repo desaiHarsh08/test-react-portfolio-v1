@@ -1,7 +1,7 @@
 import React from 'react'
-// import msClonePhone from '../Assets/ms-clone-phone.png'
+import msClonePhone from '../Assets/msclone.png'
 // import proj1 from '../Assets/proj-1.png'
-// import proj2 from '../Assets/proj-2.jpg'
+import proj2 from '../Assets/proj-2.jpg'
 
 // import{Swiper, SwiperSlide} from 'swiper/react';
 // import "swiper/swiper.b"
@@ -31,7 +31,7 @@ export const Portfolio = () => {
 
         <div className="card  py-4 flex flex-col sm:flex-row px-2 sm:px-10  ">
                   <div className="left sm:w-1/2  flex justify-center">
-                    <img src="https://scontent.fnag6-1.fna.fbcdn.net/v/t39.30808-6/308626449_995356911287467_7022146612426627937_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=_WJUBOURPgIAX9Az2in&_nc_ht=scontent.fnag6-1.fna&oh=00_AT-2t9B7NGehocTcukncoJ9z-8LZIwKQjKfGNuRYjc9zCQ&oe=6334C0CC" className="h-[235px]" alt="project-1" />
+                    <img src={msClonePhone} className="h-[235px]" alt="project-1" />
                   </div>
                   <div className="right px-2 ">
                     <h3 className="text-xl font-medium my-4 text-center sm:text-left">Microsoft Clone</h3>
@@ -56,7 +56,7 @@ export const Portfolio = () => {
 
                 <div className="card mt-10 py-4  flex flex-col sm:flex-row px-2 sm:px-10">
                   <div className="left sm:w-1/2 flex justify-center">
-                    <img src="https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-6/308804022_995356874620804_5179584783258419387_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=qKd8IRxakn0AX9iHWmX&_nc_ht=scontent.fnag6-2.fna&oh=00_AT_vCsd8jozxnUa0ZpZfWr1Mmn5QykTaU9L_dPs5fu_SAg&oe=6334D935" className="h-[235px]" alt="project-1" />
+                    <img src={proj2} className="h-[235px]" alt="project-1" />
                   </div>
                   <div className="right px-2 ">
                     <h3 className="text-xl text-center font-medium my-4">Tic-Tac-Toe</h3>

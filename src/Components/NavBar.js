@@ -33,7 +33,7 @@ export const NavBar = () => {
 
     bar1.classList.toggle('translate-y-[7px]');
     bar2.classList.toggle('invisible');
-    bar3.classList.toggle('-translate-y-[9px]');
+    bar3.classList.toggle('-translate-y-[12px]');
 
     bar1.classList.toggle('rotate-45');
     bar1.classList.toggle('bg-[#ffff00]');
@@ -52,6 +52,7 @@ export const NavBar = () => {
       <ul className='px-2 hidden md:flex '>            
           <li className='px-4 py-2 cursor-pointer text-lg hover:scale-125 transition-all duration-200  '>
             <Link to={"home"} smooth duration={500} >Home</Link>
+            
             
           </li>
           <li className='px-4 py-2 cursor-pointer text-lg hover:scale-125 transition-all duration-200  '>
@@ -78,16 +79,16 @@ export const NavBar = () => {
       <div id='nav-doc' className='md:hidden h-[136px] docker border-2 text-white absolute w-full right-0 left-0 bottom-16 z-[99999]  px-1 -translate-x-[1000px] transition-all duration-300 bg-[#ff5358] '>
 
           <ul className='flex justify-center text-base items-center h-full'>
-            <li className='mx-1 sm:mx-2 border-2 p-3 '>
+            <li className=' border-2 p-2 '>
               <Link to={"home"} smooth duration={500} >Home</Link>
             </li>
-            <li className='mx-1 sm:mx-2 border-2 p-3 '>
+            <li className='mx-1 border-2 p-2 '>
               <Link to={"about"} smooth duration={500} >About</Link>
             </li>
-            <li className='mx-1 sm:mx-2 border-2 p-3 '>
+            <li className='mx-1 border-2 p-2 '>
               <Link to={"portfolio"} smooth duration={500} >Portfolio</Link>
             </li>
-            <li className='mx-1 sm:mx-2 border-2 p-3 '>
+            <li className=' border-2 p-2 '>
               <Link to={"contact"} smooth duration={500} >Contact</Link>
             </li>
           </ul>

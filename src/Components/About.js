@@ -1,6 +1,6 @@
 import React from 'react'
-// import aboutImage from '../Assets/harsh1.png'
-// import myFile from '../Assets/TestFileDownload.docx'
+import aboutImage from '../Assets/harsh.jpg'
+import myFile from '../Assets/ResumeHarshDesai.docx'
 
 export const About = () => {
 
@@ -96,12 +96,12 @@ export const About = () => {
 
 
         {/* <!-- About --> */}
-      <div className="about py-20" id="about">
+      <div className="about py-20 " id="about">
         <div className="container mx-auto">
         <h2 className="text-3xl font-semibold my-6 text-center ">About Me </h2>
           <div className="row flex flex-col md:flex-row justify-between items-center  ">
             <div className="left h-1/3  flex  justify-center ">
-              <img src="https://scontent.fnag6-1.fna.fbcdn.net/v/t39.30808-6/308399879_992442754912216_7758675848761638087_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vJZnroFEqjoAX8ZBAAe&_nc_ht=scontent.fnag6-1.fna&oh=00_AT_YpYH0Q9lhhaOD9oDhJv8M3eUMOmDkL9e0FEF9UfWPug&oe=63342F3A" className="w-1/3 md:w-2/3 border-2 border-blue-500 rounded-full" alt="" />
+              <img src={aboutImage} className="w-1/3 md:w-2/3 border-2 border-blue-500 rounded-full" alt="" />
             </div>
             <div className="right w-[97%] mx-8 xsm:mx-4 md:mx-2 ">
               
@@ -203,7 +203,7 @@ export const About = () => {
               </div>
               <button
                 className="px-3 sm:px-4 py-3 border border-transparent bg-blue-600 text-white font-medium rounded-md hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 ">
-                  <a href={require('../Assets/TestFileDownload.docx')} download>
+                  <a href={myFile} download>
                     Download
                   </a>
                 CV</button>

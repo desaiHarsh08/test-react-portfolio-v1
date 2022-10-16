@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 768px){
+    #about{
+        min-height: 1220px;
+    }
+}
+@media (max-width: 767px){
+    #about{
+        min-height: 1550px;
+    }
+}

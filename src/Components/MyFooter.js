@@ -31,7 +31,7 @@ export const MyFooter = () => {
               <li className="py-5 sm:py-0 h-[50px]"><a href="https://wa.me/919322585046" target="_blank" rel="noreferrer"><i
                     className="fa-brands fa-whatsapp text-xl px-2 py-1 text-green-600 hover:text-green-500"></i></a>
               </li>
-              <li className="py-5 sm:py-0 h-[50px] "><a href="/"><i
+              <li className="py-5 sm:py-0 h-[50px] "><a href="https://www.instagram.com/harshdesai889/" rel="noreferrer" target={"_blank"}><i
                     className="fa-brands fa-instagram text-xl px-2 py-1 text-red-600 hover:text-red-300"></i></a></li>
               <li className="py-5 sm:py-0 h-[50px] hover:text-slate-500"><a href="https://github.com/desaiHarsh08" target="_blank" rel="noreferrer"><i
                     className="fa-brands fa-github text-xl px-2 py-1 "></i></a></li>
