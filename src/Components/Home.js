@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import myImage from '../Assets/myImage2s.png'
 // import myImage1 from '../Assets/harsh.jpg'
-import myFile from '../Assets/ResumeHarshDesai.docx'
+import myFile from '../Assets/Resume - HarshNileshDesai.pdf'
 // import {FiDownload} from 'react-icons/md'
 
 import Typed from "typed.js";

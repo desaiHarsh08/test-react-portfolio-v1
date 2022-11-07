@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutImage from '../Assets/harsh.jpg'
-import myFile from '../Assets/ResumeHarshDesai.docx'
+import myFile from '../Assets/Resume - HarshNileshDesai.pdf'
 
 export const About = () => {
 
@@ -204,9 +204,9 @@ export const About = () => {
               <button
                 className="px-3 sm:px-4 py-3 border border-transparent bg-blue-600 text-white font-medium rounded-md hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 ">
                   <a href={myFile} download>
-                    Download
+                    Download CV
                   </a>
-                CV</button>
+                 </button>
             </div>
           </div>
         </div>
