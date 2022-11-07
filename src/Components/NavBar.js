@@ -33,7 +33,7 @@ export const NavBar = () => {
 
     bar1.classList.toggle('translate-y-[7px]');
     bar2.classList.toggle('invisible');
-    bar3.classList.toggle('-translate-y-[12px]');
+    bar3.classList.toggle('-translate-y-[9px]');
 
     bar1.classList.toggle('rotate-45');
     bar1.classList.toggle('bg-[#ffff00]');
