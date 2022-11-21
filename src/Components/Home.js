@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import myImage from '../Assets/myImage2s.png'
 // import myImage1 from '../Assets/harsh.jpg'
-import myFile from '../Assets/Resume - HarshNileshDesai.pdf'
+import myFile from '../Assets/Resume_HarshNileshDesai.pdf'
 // import {FiDownload} from 'react-icons/md'
 
 import Typed from "typed.js";
@@ -34,9 +34,9 @@ export const Home = () => {
   }, []);
     
   return (
-    <div name='home' className='pt-12 md:pt-20 h-[92vh] w-full'>
+    <div name='home' className='pt-12 md:pt-20 w-full'>
         
-        <div className='h-[95%] mx-2 flex flex-col-reverse md:flex-row justify-evenly gap-4 '>
+        <div className='h-[95%] mx-2 sm:py-20 flex flex-col-reverse md:flex-row justify-evenly gap-4 '>
             <div className="left w-[100%] md:w-1/2 flex justify-center items-center flex-col-reverse md:flex-row md:border-r-2 md:border-r-blue-500  ">
                 <div className='media-icons  w-[100%] md:w-[20%] flex md:flex-col items-center justify-evenly '>
                     <div className='px-1 w-12 flex justify-center items-center h-12'>

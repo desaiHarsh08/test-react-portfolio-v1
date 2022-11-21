@@ -1,33 +1,10 @@
 import React from 'react'
 import aboutImage from '../Assets/harsh.jpg'
-import myFile from '../Assets/Resume - HarshNileshDesai.pdf'
+import myFile from '../Assets/Resume_HarshNileshDesai.pdf'
 
 export const About = () => {
 
 
-    // const tabLinks = document.getElementsByClassName('tab-links')
-    // const tabLinks = document.getElementsByClassName('tab-contents')
-
-
-    // function openTab(tab) {
-    //   // console.log(tabLinks);
-
-    //   // To remove underline: -
-    //   for (var tabLink of tabLinks) {
-    //     tabLink.classList.remove('border-b-blue-600')
-    //   }
-
-    //   // To clear tab-content: -
-    //   var contentNames = ['skills', 'experience', 'education'];
-    //   for (var content of contentNames) {
-    //     // console.log(document.getElementById(content));
-    //     document.getElementById(content).classList.add('hidden');
-    //   }
-
-    //   // To display specific content: -
-    //   document.getElementById(tab + '-tab').classList.add('border-b-blue-600');
-    //   document.getElementById(tab).classList.toggle('hidden');
-    // }
 
     
     const handleSkills = () =>{

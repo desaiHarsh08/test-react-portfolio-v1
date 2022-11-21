@@ -17,7 +17,7 @@ export const Portfolio = () => {
 
 
   return (
-    <div className='portfolio mt-12'>
+    <div className='portfolio  py-5'>
       
 
 

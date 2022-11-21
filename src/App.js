@@ -8,8 +8,10 @@ import { MyFooter } from "./Components/MyFooter";
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home />
+      <div className="h-[90vh] flex flex-col justify-between ">
+        <NavBar />
+        <Home />
+      </div>
       <About />
       <Portfolio />
       <Contact />
